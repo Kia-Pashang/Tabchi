@@ -8,7 +8,7 @@ git clone https://Github/kia-pashang/Tabchi.git
 
 cd Tabchi
 
-chmod +x intsall.sh
+chmod +x install.sh
 
 ./install.sh
 
