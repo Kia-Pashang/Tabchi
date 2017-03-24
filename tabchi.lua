@@ -274,6 +274,9 @@ function process(msg)
 /reload
 شروع مجدد ربات ⛔️
 
+/gitpull
+آپدیت کردن فایل های ربات
+				
 —------—
 
 Help >> @To_My_Amigos ]]
