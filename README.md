@@ -4,7 +4,7 @@ TG-CLI Based Broadcasting Bot.
 
 ## راهنمای نصب :
 
-git clone https://Github/kia-pashang/Tabchi.git
+git clone https://Github.com/kia-pashang/Tabchi.git
 
 cd Tabchi
 
@@ -39,3 +39,13 @@ lua manual-creator.lua
 screen ./tabchi-5.sh
 
 شماره ست کنید و حالشو ببرین
+
+#-----------------------------------------
+#استفاده از انتی کرش
+وقتی شماره و همه چی رو ست کردین اول دستور اسکرین استفاده کنید وقتی ربات خاموش شد مراحل زیر رو انجام بدین
+
+cd Tabchi
+
+./anticrash.sh
+
+عمرا ربات اف بشه :)
