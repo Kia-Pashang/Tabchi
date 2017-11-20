@@ -171,7 +171,7 @@ function process(msg)
 			    elseif text_:match("^[!/#](help)") and is_sudo(msg) then
       local text1 = [[
 	  
-راهنمای ربات تبچی نسخه 4.3 دیکامپایل شده بدون تبلیغ
+راهنمای ربات تبچی نسخه 4.3
 
 /pm <userid> <text>
 ارسال <text> به <userid>
@@ -262,9 +262,12 @@ function process(msg)
 
 /gitpull
 آپدیت کردن فایل های ربات
+-------------------------
 				
-—------—
-
+قابل توجه کاربران عزیز : 
+نسخه 5.5 این ربات (کامل ترین نسخه و دارای امکانات عالی) به فروش میرسد
+برای اطلاع بیشتر و خرید سورس ربات به آیدی زیر مراجعه نمایید.
+				
 Help >> @To_My_Amigos ]]
 return tdcli.sendMessage(msg.chat_id_, 0, 1, text1, 1, "")
 	  
