@@ -1,4 +1,4 @@
-# Tabchi V4.3 Decompiled By [@To_My_Amigos](Https://T.Me/To_My_Amigos)
+# Tabchi V4.3 By [@To_My_Amigos](Https://T.Me/To_My_Amigos)
 
 TG-CLI Based Broadcasting Bot.
 
